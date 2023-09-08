@@ -13,7 +13,7 @@ Due to the missing markup, the zero-shot text classification approach was chosen
 Two models from Hugging Face were considered:
 - zero-shot-classify-SSTuning-XLMR, because it's fast and easy to integrate;
 - multilingual-e5-large-xnli-english, because it's powerful.
-##Frontend and deploy
+## Frontend and deploy
 - pydeck layers for build map and plot points
 - streamlit for deploy app
 ## Results demonstration
