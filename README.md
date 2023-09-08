@@ -5,5 +5,12 @@ This repository was created as a part of the AI Talent Hackathon. During this ha
 ## Data collection
 The data was collected from open sources such as Yandex Maps and 2GIS. The result of parsing was more than 5,000 reviews of 55 stores of 5 different retail chains.
 ## Model selection and fitting
+ML Task - hierarchical text classification by store parameter and it's sentiment.
 
+The first-level model classifies the key storage parameter. The second level classifies sentiment of this parameter.
+Due to the missing markup, the zero-shot text classification approach was chosen.
+
+Two models from Hugging Face were considered:
+- zero-shot-classify-SSTuning-XLMR, because it's fast and easy to integrate;
+- multilingual-e5-large-xnli-english, because it's powerful.
 ## Results demonstration
